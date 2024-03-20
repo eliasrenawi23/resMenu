@@ -1,3 +1,4 @@
+import BeefBurgers from '@/components/BeefBurgers'
 import SectionHeading from '@/components/SectionHeading'
 import Image from 'next/image'
 import React from 'react'
@@ -5,11 +6,14 @@ import React from 'react'
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      <BeefBurgers />
 
-
-      {[...Array(5)].map((_, outerIndex) => (
+      {/* {[...Array(5)].map((_, outerIndex) => (
         <section key={`section-${outerIndex + 1}`} id={`section-${outerIndex}`} className="scroll-mt-28 mb-28">
-          <SectionHeading>My Section {outerIndex + 1}</SectionHeading>
+
+
+
+
           <div className='flex flex-wrap justify-center gap-2 text-lg text-gray-800 flex-row-reverse'>
             {[...Array(10)].map((_, innerIndex) => (
               <React.Fragment key={`inner-section-${innerIndex}`}>
@@ -33,7 +37,7 @@ export default function Home() {
             ))}
           </div>
         </section>
-      ))}
+      ))} */}
 
 
     </main>

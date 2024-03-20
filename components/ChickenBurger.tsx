@@ -1,16 +1,16 @@
 import React from 'react'
 import SectionHeading from './SectionHeading'
-import { beefBurgers } from '@/lib/data'
 import Meal from './Meal'
+import { chickenBurgers } from '@/lib/data'
 
-const BeefBurgers = () => {
+const ChickenBurger = () => {
     return (
         <section>
-            <SectionHeading>Beef Burgers</SectionHeading>
+            <SectionHeading>Chicken Burgers</SectionHeading>
             <div className='flex flex-wrap justify-center gap-2 text-lg text-gray-800 flex-row-reverse'>
-                {beefBurgers.map((beefburger, index) => (
+                {chickenBurgers.map((chickenBurger, index) => (
                     <React.Fragment key={index}>
-                        <Meal {...beefburger} />
+                        <Meal {...chickenBurger} />
                     </React.Fragment>
                 ))}
             </div>
@@ -18,4 +18,4 @@ const BeefBurgers = () => {
     )
 }
 
-export default BeefBurgers
+export default ChickenBurger

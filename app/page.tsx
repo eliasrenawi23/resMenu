@@ -7,9 +7,9 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
 
 
-      {[...Array(10)].map((_, outerIndex) => (
-        <section key={`section-${outerIndex}`} id={`section-${outerIndex}`} className="scroll-mt-28 mb-28">
-          <SectionHeading>My Section {outerIndex}</SectionHeading>
+      {[...Array(5)].map((_, outerIndex) => (
+        <section key={`section-${outerIndex + 1}`} id={`section-${outerIndex}`} className="scroll-mt-28 mb-28">
+          <SectionHeading>My Section {outerIndex + 1}</SectionHeading>
           <div className='flex flex-wrap justify-center gap-2 text-lg text-gray-800 flex-row-reverse'>
             {[...Array(10)].map((_, innerIndex) => (
               <React.Fragment key={`inner-section-${innerIndex}`}>
@@ -23,7 +23,7 @@ export default function Home() {
                       height={37}
                       priority
                     />
-                    {innerIndex}
+                    {innerIndex + 1}
 
                   </div>
 

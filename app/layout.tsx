@@ -2,6 +2,7 @@ import './globals.css'
 import { Inter } from 'next/font/google'
 import ThemeContextProvider from '@/context/ThemeContext';
 import TheamSwitch from '@/components/TheamSwitch';
+import HeaderPage from '@/components/HeaderPage';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,8 +22,7 @@ export default function RootLayout({
         className={`${inter.className}
         bg-gray-50
         text-gray-950 
-        relative pt-28 
-        sm:pt-36 dark:bg-gray-900
+        dark:bg-gray-900
         dark:text-gray-50 
         dark:text-opacity-90`}
       >
@@ -50,6 +50,7 @@ export default function RootLayout({
         2xl:left-[-5rem] 
         dark:bg-[#676394]"></div>
         <ThemeContextProvider>
+          <HeaderPage />
           {children}
           <TheamSwitch />
         </ThemeContextProvider>

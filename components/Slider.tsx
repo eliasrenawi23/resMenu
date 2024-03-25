@@ -18,9 +18,10 @@ type SliderProps = {
 
 const Slider: React.FC<SliderProps> = ({ meals }) => {
 
-    const [isSmallScreen, setIsSmallScreen] = useState<Boolean>(false);
+    const [isSmallScreen, setIsSmallScreen] = useState<Boolean>(window.innerWidth < 768);
 
     useEffect(() => {
+
         const handleResize = () => {
             setIsSmallScreen(window.innerWidth < 768);
         };

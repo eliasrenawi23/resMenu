@@ -22,6 +22,10 @@ import MozzaSticks from "@/public/OnTop/MozzaSticks.png"
 import GardenSalad from "@/public/Salads/GardenSalad.png"
 import GreekSalad from "@/public/Salads/GreekSalad.png"
 
+import DoubleMozza from "@/public/popular/DoubleMozza.png"
+import Lazeezo from "@/public/popular/Lazeezo.png"
+import Charger from "@/public/popular/Charger.png"
+
 export const beefBurgers = [
     {
         title: "Beef Burger",
@@ -165,6 +169,33 @@ export const salads = [
         tags: ["Beef", "Cheese",],
         imageUrl: GreekSalad,
         price: "10.00 ₪",
+    },
+
+] as const;
+export const popular = [
+    {
+        title: "Lazeezo",
+        description:
+            "Double Beef Patty, HashBrown, Double Cheese ,Grilled Onion &Tomatoes, Pickles, Lettuce, Mayo, Katchup, Mustard, Chipotle Sauce",
+        tags: ["Beef", "classic"],
+        imageUrl: Lazeezo,
+        price: "65.00 ₪",
+    },
+    {
+        title: "Double Mozza",
+        description:
+            "Double Beef Patty, Mozza Cheese, Mozza Sticks, Salsa, Mayo ",
+        tags: ["Beef", "Cheese",],
+        imageUrl: DoubleMozza,
+        price: "65.00 ₪",
+    },
+    {
+        title: "Charger",
+        description:
+            "Double Beef Patty, Double Cheese ,Beef Bacon, Onion Rings, Lettuce, Tomatoes, Mayo, BBQ Sauce",
+        tags: ["Beef", "Cheese",],
+        imageUrl: Charger,
+        price: "65.00 ₪",
     },
 
 ] as const;

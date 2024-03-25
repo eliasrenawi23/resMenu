@@ -1,5 +1,5 @@
 "use client"
-import { beefBurgers, chickenBurgers, onTop, salads } from '@/lib/data';
+import { beefBurgers, chickenBurgers, onTop, salads, popular } from '@/lib/data';
 import React, { useEffect, useState } from 'react'
 import { Pagination, Autoplay, Navigation } from 'swiper/modules';
 import 'swiper/css';
@@ -10,7 +10,7 @@ import Meal from './Meal';
 
 
 
-type Meals = typeof beefBurgers | typeof chickenBurgers | typeof onTop | typeof salads;
+type Meals = typeof beefBurgers | typeof chickenBurgers | typeof onTop | typeof salads | typeof popular;
 
 type SliderProps = {
     meals: Meals;

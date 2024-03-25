@@ -1,8 +1,13 @@
 import React from 'react';
 import Image from 'next/image';
-import { beefBurgers, chickenBurgers, onTop, salads } from '@/lib/data';
+import { beefBurgers, chickenBurgers, onTop, salads, popular } from '@/lib/data';
 
-type MealProps = (typeof beefBurgers)[number] | (typeof chickenBurgers)[number] | (typeof onTop)[number] | (typeof salads)[number];
+type MealProps =
+    (typeof beefBurgers)[number] |
+    (typeof chickenBurgers)[number] |
+    (typeof onTop)[number] |
+    (typeof salads)[number] |
+    (typeof popular)[number];
 
 const Meal: React.FC<MealProps> = ({
     title,

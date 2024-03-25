@@ -24,7 +24,8 @@ export default function RootLayout({
         text-gray-950 
         dark:bg-gray-900
         dark:text-gray-50 
-        dark:text-opacity-90`}
+        dark:text-opacity-90
+        w-screen`}
       >
         <div className="
         bg-[#fbe2e3] 

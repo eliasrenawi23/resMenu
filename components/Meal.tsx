@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import { beefBurgers, chickenBurgers } from '@/lib/data';
 
-type MealProps = (typeof beefBurgers)[number] | typeof chickenBurgers[number];;
+type MealProps = (typeof beefBurgers)[number] | typeof chickenBurgers[number];
 
 const Meal: React.FC<MealProps> = ({
     title,

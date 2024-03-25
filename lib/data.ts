@@ -11,6 +11,17 @@ import BBQChicken from "@/public/burgers/BBQChicken.png"
 import crispyChicken from "@/public/burgers/crispyChicken.png"
 import chickenParadise from "@/public/burgers/chickenParadise.png"
 
+
+import Bacon from "@/public/OnTop/BeefBacon.png"
+import ChickenFingers from "@/public/OnTop/ChickenFingers.png"
+import FriedEgg from "@/public/OnTop/FriedEgg.png"
+import Jalapemos from "@/public/OnTop/Jalapemos.png"
+import MozzaSticks from "@/public/OnTop/MozzaSticks.png"
+
+
+import GardenSalad from "@/public/Salads/GardenSalad.png"
+import GreekSalad from "@/public/Salads/GreekSalad.png"
+
 export const beefBurgers = [
     {
         title: "Beef Burger",
@@ -95,4 +106,65 @@ export const chickenBurgers = [
         imageUrl: chickenParadise,
         price: "38.00 ₪",
     },
+] as const;
+export const onTop = [
+    {
+        title: "Beef Bacon",
+        description:
+            "",
+        tags: ["Beef", "classic"],
+        imageUrl: Bacon,
+        price: "12.00 ₪",
+    },
+    {
+        title: "Chicken Fingers",
+        description:
+            "2 ChickenFingers",
+        tags: ["Beef", "Cheese",],
+        imageUrl: ChickenFingers,
+        price: "10.00 ₪",
+    },
+    {
+        title: "FriedEgg",
+        description:
+            "",
+        tags: ["Beef", "Cheese", "Bacon"],
+        imageUrl: FriedEgg,
+        price: "10.00 ₪",
+    },
+    {
+        title: "Jalapemos",
+        description:
+            "",
+        tags: ["Beef", "Cheese", , "Creamy", "Mushroom", " Mozza Cheese"],
+        imageUrl: Jalapemos,
+        price: "5.00 ₪",
+    },
+    {
+        title: "MozzaSticks",
+        description:
+            "2 Mozza Sticks",
+        tags: ["Beef", "BBQ sauce", "Pineapple", "Pineappsdle", " Mozza Cheese"],
+        imageUrl: MozzaSticks,
+        price: "10.00 ₪",
+    },
+] as const;
+export const salads = [
+    {
+        title: "GardenSalad",
+        description:
+            "Lettuce, Tomatoes, Cucumber, Oninons ,Olives , Feta Chees, Parsly, Homemade Dressing",
+        tags: ["Beef", "classic"],
+        imageUrl: GardenSalad,
+        price: "25.00 ₪",
+    },
+    {
+        title: "Greek Salad",
+        description:
+            "Lettuce, Tomatoes, Cucumber, Oninons, Parsly, Homemade Dressing",
+        tags: ["Beef", "Cheese",],
+        imageUrl: GreekSalad,
+        price: "10.00 ₪",
+    },
+
 ] as const;

@@ -1,8 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
-import { beefBurgers, chickenBurgers } from '@/lib/data';
+import { beefBurgers, chickenBurgers, onTop, salads } from '@/lib/data';
 
-type MealProps = (typeof beefBurgers)[number] | typeof chickenBurgers[number];
+type MealProps = (typeof beefBurgers)[number] | (typeof chickenBurgers)[number] | (typeof onTop)[number] | (typeof salads)[number];
 
 const Meal: React.FC<MealProps> = ({
     title,
@@ -22,16 +22,16 @@ const Meal: React.FC<MealProps> = ({
             <div className="flex flex-col items-center flex-grow p-4">
                 <Image
                     src={imageUrl}
-                    alt="beef burger"
+                    alt="meal"
                     quality={95}
-                    width={200}
-                    height={200}
+                    width={150}
+                    height={150}
                     className="shadow-2xl transition group-hover:scale-[1.04] group-hover:-translate-x-3 group-hover:translate-y-3 group-hover:-rotate-2 group-even:group-hover:translate-x-3 group-even:group-hover:translate-y-3 group-even:group-hover:rotate-2 group-even:right-[initial] group-even:-left-40"
                 />
                 <h3 className="text-lg font-semibold text-white text-right truncate sm:text-xl md:text-2xl">{price}</h3>
             </div>
-            <div className="flex flex-col flex-grow p-4">
-                <h3 className="text-2xl font-semibold text-white">{title}</h3>
+            <div className="flex flex-col flex-grow p-5 ml-10">
+                <h3 className="text-2xl font-semibold text-white ">{title}</h3>
                 <p className="mt-2 leading-relaxed text-gray-700 dark:text-white/70">
                     {description}
                 </p>

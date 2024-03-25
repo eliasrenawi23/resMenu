@@ -1,15 +1,15 @@
 import React from 'react'
 import SectionHeading from './SectionHeading'
-import { chickenBurgers } from '@/lib/data'
 import Slider from './Slider'
+import { onTop } from '@/lib/data'
 
-const ChickenBurger = () => {
+const OnTop = () => {
     return (
         <section className='w-screen border-2 border-solid border-gray-300 box-border p-10'>
-            <SectionHeading>Chicken Burgers</SectionHeading>
-            <Slider meals={chickenBurgers} />
+            <SectionHeading>On Top</SectionHeading>
+            <Slider meals={onTop} />
         </section>
     )
 }
 
-export default ChickenBurger
+export default OnTop

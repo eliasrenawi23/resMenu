@@ -1,17 +1,16 @@
 import React from 'react'
 import SectionHeading from './SectionHeading'
-import { beefBurgers } from '@/lib/data'
-import Meal from './Meal'
+import { beefBurgers, onTop } from '@/lib/data'
 import Slider from './Slider'
 
 const BeefBurgers = () => {
 
-
     return (
-        <section>
+        <section className='w-screen border-2 border-solid border-gray-300 box-border p-10'>
             <SectionHeading>Beef Burgers</SectionHeading>
             <Slider meals={beefBurgers} />
         </section>
+
     )
 }
 

@@ -18,21 +18,26 @@ type SliderProps = {
 
 const Slider: React.FC<SliderProps> = ({ meals }) => {
 
-    const [isSmallScreen, setIsSmallScreen] = useState<Boolean>(window.innerWidth < 768);
+    const [isSmallScreen, setIsSmallScreen] = useState<Boolean>(true);
+
+
+
 
     useEffect(() => {
-
-        const handleResize = () => {
+        if(typeof window !== 'undefined') {
             setIsSmallScreen(window.innerWidth < 768);
-        };
 
-        window.addEventListener('resize', handleResize);
+            const handleResize = () => {
+                setIsSmallScreen(window.innerWidth < 768);
+            };
 
-        return () => {
-            window.removeEventListener('resize', handleResize);
-        };
+            window.addEventListener('resize', handleResize);
+
+            return () => {
+                window.removeEventListener('resize', handleResize);
+            };
+        }
     }, []);
-
     return (
         <Swiper
             dir="rtl"

@@ -3,18 +3,19 @@ import Image from 'next/image';
 import { beefBurgers, chickenBurgers, onTop, salads, popular } from '@/lib/data';
 
 type MealProps =
-    (typeof beefBurgers)[number] |
-    (typeof chickenBurgers)[number] |
-    (typeof onTop)[number] |
-    (typeof salads)[number] |
-    (typeof popular)[number];
+    ((typeof beefBurgers)[number] |
+        (typeof chickenBurgers)[number] |
+        (typeof onTop)[number] |
+        (typeof salads)[number] |
+        (typeof popular)[number]) & { showAll?: boolean };
 
 const Meal: React.FC<MealProps> = ({
     title,
     description,
     tags,
     imageUrl,
-    price
+    price,
+    showAll
 }) => {
     return (
         <div className='max-w-[200px] min-w-[180px] flex-1'>
@@ -26,7 +27,8 @@ const Meal: React.FC<MealProps> = ({
                 data-state="closed"
                 className='w-full'
             >
-                <div className='transition-transform duration-700 ease-in-out transform scale-95 hover:scale-100 active:scale-100 focus:scale-100 h-[250px] w-full overflow-hidden flex flex-col justify-between relative cursor-pointer bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700'>
+                <div className={showAll ? 'class="transition-transform duration-700 ease-in-out transform scale-100 h-[250px] w-full overflow-hidden flex flex-col justify-between relative cursor-pointer bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700' :
+                    'transition-transform duration-700 ease-in-out transform scale-95 hover:scale-100 active:scale-100 focus:scale-100 h-[250px] w-full overflow-hidden flex flex-col justify-between relative cursor-pointer bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700'}>
                     <div className='h-[60%] w-full relative'>
                         <div className='h-full w-full absolute inset-0'>
                             <Image

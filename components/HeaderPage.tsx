@@ -14,11 +14,10 @@ const HeaderPage = () => {
         flex
         items-center 
         justify-center
-        bg-cover bg-center bg-no-repeat 
+        bg-cover bg-center bg-no-repeat  rounded-lg shadow 
         `}
             style={{ backgroundImage: `url(${BurgerCover.src})` }}
         >
-
             <Image
                 src={Logo}
                 width="192"

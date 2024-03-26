@@ -1,14 +1,24 @@
 import React from 'react'
 import SectionHeading from './SectionHeading'
 import { chickenBurgers } from '@/lib/data'
-import Slider from './Slider'
+import Meal from './Meal'
 
 const ChickenBurger = () => {
     return (
-        <section className='w-screen border-2 border-solid border-gray-300 box-border p-10'>
+        <section className='flex  flex-col w-full gap-2 h-80'>
             <SectionHeading>Chicken Burgers</SectionHeading>
-            <Slider meals={chickenBurgers} />
+            <div className='w-full flex'>
+                <div className='flex gap-1 w-full transition-all duration-700 ease-in-out overflow-auto scroll-smooth no-scrollbar'>
+                    {chickenBurgers.map((meal, index) => (
+                        <React.Fragment key={index}>
+                            <Meal {...meal} />
+                        </React.Fragment>
+                    ))}
+
+                </div>
+            </div>
         </section>
+
     )
 }
 

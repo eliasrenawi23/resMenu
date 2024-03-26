@@ -1,14 +1,26 @@
 import React from 'react'
 import SectionHeading from './SectionHeading'
 import { beefBurgers, onTop } from '@/lib/data'
-import Slider from './Slider'
+import TestComponent from './TestComponent'
+import Meal from './Meal'
 
 const BeefBurgers = () => {
 
     return (
-        <section className='w-screen border-2 border-solid border-gray-300 box-border p-10'>
+        <section className='flex  flex-col w-full gap-2 h-80'>
+
             <SectionHeading>Beef Burgers</SectionHeading>
-            <Slider meals={beefBurgers} />
+            <div className='w-full flex'>
+                <div className='flex gap-1 w-full transition-all duration-700 ease-in-out overflow-auto scroll-smooth no-scrollbar'>
+                    {beefBurgers.map((meal, index) => (
+                        <React.Fragment key={index}>
+                            <Meal {...meal} />
+                            {/* <TestComponent{...meal} /> */}
+                        </React.Fragment>
+                    ))}
+
+                </div>
+            </div>
         </section>
 
     )

@@ -1,6 +1,7 @@
-import React from 'react';
+import { beefBurgers, chickenBurgers, onTop, popular, salads } from '@/lib/data';
+import React from 'react'
 import Image from 'next/image';
-import { beefBurgers, chickenBurgers, onTop, salads, popular } from '@/lib/data';
+
 
 type MealProps =
     (typeof beefBurgers)[number] |
@@ -9,7 +10,7 @@ type MealProps =
     (typeof salads)[number] |
     (typeof popular)[number];
 
-const Meal: React.FC<MealProps> = ({
+const TestComponent: React.FC<MealProps> = ({
     title,
     description,
     tags,
@@ -49,6 +50,8 @@ const Meal: React.FC<MealProps> = ({
             </button>
         </div>
     );
-};
 
-export default Meal;
+
+}
+
+export default TestComponent

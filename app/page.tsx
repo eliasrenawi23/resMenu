@@ -7,7 +7,7 @@ import React from 'react'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen w-s flex-col items-center justify-between p-24">
+    <main className="flex min-h-screen flex-col 0 gap-10">
       <Popular />
       <BeefBurgers />
       <ChickenBurger />

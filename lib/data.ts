@@ -31,7 +31,6 @@ export const beefBurgers = [
         title: "Beef Burger",
         description:
             "Beef patty, Onions, Tomatoes, Pickles, Lettuce, Ketchup, Mayo, Mustard",
-        tags: ["Beef", "classic"],
         imageUrl: BeefBurger,
         price: "38.00 ₪",
     },
@@ -39,7 +38,6 @@ export const beefBurgers = [
         title: "Cheese  Burger",
         description:
             "Beef patty, Chedder Cheese, Grilled Onions & Tomatoes, Pickles, Lettuce, Ketchup, Mayo, Mustard",
-        tags: ["Beef", "Cheese",],
         imageUrl: CheeseBurger,
         price: "38.00 ₪",
     },
@@ -47,7 +45,6 @@ export const beefBurgers = [
         title: "Beef  Bacon",
         description:
             "Beef patty, Chedder Cheese, Beef Bacon, Grilled Onions & Tomatoes, Pickles, Lettuce, Ketchup, Mayo, Mustard",
-        tags: ["Beef", "Cheese", "Bacon"],
         imageUrl: BeefBacon,
         price: "38.00 ₪",
     },
@@ -55,7 +52,6 @@ export const beefBurgers = [
         title: "Creamy Mushroom",
         description:
             "Beef patty, Creamy of Mushroom, Mozza Cheese, Grilled Onions, Mayo",
-        tags: ["Beef", "Cheese", , "Creamy", "Mushroom", " Mozza Cheese"],
         imageUrl: CreamyMushroom,
         price: "38.00 ₪",
     },
@@ -63,7 +59,6 @@ export const beefBurgers = [
         title: "Hawaiian Burger",
         description:
             "Beef patty, Grilled Pineapple, Mayo, Mozza Cheese, Onions, Tomatoes, Lettuce, Mayo, BBQ sauce",
-        tags: ["Beef", "BBQ sauce", "Pineapple", " Mozza Cheese"],
         imageUrl: HawaiianBurger,
         price: "38.00 ₪",
     },
@@ -74,7 +69,6 @@ export const chickenBurgers = [
         title: "Spicy Tandoori",
         description:
             "Tandoori Chicken, Chedder Cheese, Grilled Onion & Tomatoes, Lettuce, Pickles, Garlic Sauce, Mayo",
-        tags: ["Beef", "classic"],
         imageUrl: spicyTandoori,
         price: "38.00 ₪",
     },
@@ -82,7 +76,6 @@ export const chickenBurgers = [
         title: "Spicy Buffalo",
         description:
             "Crispy Chicken, Mozza Cheese, Grilled Onion & Tomatoes, Lettuce, Garlic Sauce, Buffalo Sauce, Mayo",
-        tags: ["Beef", "Cheese",],
         imageUrl: spicyBuffalo,
         price: "38.00 ₪",
     },
@@ -90,7 +83,6 @@ export const chickenBurgers = [
         title: "BBQ Chicken",
         description:
             "Grilled Chicken, Mozza Cheese, Grilled Onion, Lettuce, Mayo, BBQ Sauce",
-        tags: ["Beef", "Cheese", "Bacon"],
         imageUrl: BBQChicken,
         price: "38.00 ₪",
     },
@@ -98,7 +90,6 @@ export const chickenBurgers = [
         title: "Crispy Chicken",
         description:
             "Crispy Chicken, Chedder Cheese, Grilled Onion & Tomatoes, Lettuce, Pickles, Garlic Sauce, Mayo, Chipotle Sauce ",
-        tags: ["Beef", "Cheese", , "Creamy", "Mushroom", " Mozza Cheese"],
         imageUrl: crispyChicken,
         price: "38.00 ₪",
     },
@@ -106,7 +97,6 @@ export const chickenBurgers = [
         title: "Chicken Paradise",
         description:
             "Grilled Chicken, Mozza Cheese, Grilled Pineapple,Lettuce, Onions, jalapenos, Mayo,Garlic Sauce ",
-        tags: ["Beef", "BBQ sauce", "Pineapple", "Pineappsdle", " Mozza Cheese"],
         imageUrl: chickenParadise,
         price: "38.00 ₪",
     },
@@ -116,7 +106,6 @@ export const onTop = [
         title: "Beef Bacon",
         description:
             "",
-        tags: ["Beef", "classic"],
         imageUrl: Bacon,
         price: "12.00 ₪",
     },
@@ -124,7 +113,6 @@ export const onTop = [
         title: "Chicken Fingers",
         description:
             "2 ChickenFingers",
-        tags: ["Beef", "Cheese",],
         imageUrl: ChickenFingers,
         price: "10.00 ₪",
     },
@@ -132,7 +120,6 @@ export const onTop = [
         title: "FriedEgg",
         description:
             "",
-        tags: ["Beef", "Cheese", "Bacon"],
         imageUrl: FriedEgg,
         price: "10.00 ₪",
     },
@@ -140,7 +127,6 @@ export const onTop = [
         title: "Jalapemos",
         description:
             "",
-        tags: ["Beef", "Cheese", , "Creamy", "Mushroom", " Mozza Cheese"],
         imageUrl: Jalapemos,
         price: "5.00 ₪",
     },
@@ -148,7 +134,6 @@ export const onTop = [
         title: "MozzaSticks",
         description:
             "2 Mozza Sticks",
-        tags: ["Beef", "BBQ sauce", "Pineapple", "Pineappsdle", " Mozza Cheese"],
         imageUrl: MozzaSticks,
         price: "10.00 ₪",
     },
@@ -158,7 +143,6 @@ export const salads = [
         title: "GardenSalad",
         description:
             "Lettuce, Tomatoes, Cucumber, Oninons ,Olives , Feta Chees, Parsly, Homemade Dressing",
-        tags: ["Beef", "classic"],
         imageUrl: GardenSalad,
         price: "25.00 ₪",
     },
@@ -166,7 +150,6 @@ export const salads = [
         title: "Greek Salad",
         description:
             "Lettuce, Tomatoes, Cucumber, Oninons, Parsly, Homemade Dressing",
-        tags: ["Beef", "Cheese",],
         imageUrl: GreekSalad,
         price: "10.00 ₪",
     },
@@ -177,7 +160,6 @@ export const popular = [
         title: "Lazeezo",
         description:
             "Double Beef Patty, HashBrown, Double Cheese ,Grilled Onion &Tomatoes, Pickles, Lettuce, Mayo, Katchup, Mustard, Chipotle Sauce",
-        tags: ["Beef", "classic"],
         imageUrl: Lazeezo,
         price: "65.00 ₪",
     },
@@ -185,7 +167,6 @@ export const popular = [
         title: "Double Mozza",
         description:
             "Double Beef Patty, Mozza Cheese, Mozza Sticks, Salsa, Mayo ",
-        tags: ["Beef", "Cheese",],
         imageUrl: DoubleMozza,
         price: "65.00 ₪",
     },
@@ -193,7 +174,6 @@ export const popular = [
         title: "Charger",
         description:
             "Double Beef Patty, Double Cheese ,Beef Bacon, Onion Rings, Lettuce, Tomatoes, Mayo, BBQ Sauce",
-        tags: ["Beef", "Cheese",],
         imageUrl: Charger,
         price: "65.00 ₪",
     },

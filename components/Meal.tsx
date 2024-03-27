@@ -12,7 +12,6 @@ type MealProps =
 const Meal: React.FC<MealProps> = ({
     title,
     description,
-    tags,
     imageUrl,
     price,
     showAll

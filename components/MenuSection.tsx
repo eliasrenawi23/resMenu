@@ -5,6 +5,7 @@ import ShowAllButton from './ShowAllButton';
 import SectionHeading from './SectionHeading';
 import Meal from './Meal';
 import { sections } from '@/lib/data/orgnazedData';
+import { useIntl } from 'react-intl';
 
 type SectionProps = {
     heading: string;
@@ -13,8 +14,13 @@ type SectionProps = {
 
 const MenuSection: React.FC<SectionProps> = ({ heading, meals }) => {
     const [showAll, setShowAll] = useState<boolean>(false);
+    const intl = useIntl();
+
     return (
         <section className='flex  flex-col w-full gap-2 min-h-80'>
+            <h2>
+                {intl.formatMessage({ id: 'key1' })}
+            </h2>
             <div className="flex items-center justify-between ml-4 mr-4">
                 <ShowAllButton showAll={showAll} setShowAll={setShowAll} />
                 <SectionHeading>{heading}</SectionHeading>

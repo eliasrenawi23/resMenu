@@ -1,10 +1,10 @@
 "use client";
 
-import React, { createContext, useContext, useEffect, useState } from 'react'
+import React, { ReactNode, createContext, useContext, useEffect, useState } from 'react'
 type Theme = "light" | "dark"
 
 type ThemeContextProviderProps = {
-    children: React.ReactNode;
+    children: ReactNode;
 };
 
 type ThemeContextType = {

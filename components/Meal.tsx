@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { sections } from '@/lib/data/orgnazedData';
+import { useIntl } from 'react-intl';
 
 
 
@@ -13,6 +14,10 @@ const Meal: React.FC<MealProps> = ({
     price,
     showAll
 }) => {
+    const intl = useIntl();
+    {/* <h2>
+                {intl.formatMessage({ id: 'key1' })}
+            </h2> */}
     return (
         <div className='max-w-[200px] min-w-[180px] flex-1'>
             <button
@@ -39,8 +44,8 @@ const Meal: React.FC<MealProps> = ({
                         </div>
                     </div>
                     <div className='max-h-[40%] w-full overflow-hidden'>
-                        <div className='text-sm font-bold tracking-tight text-gray-900 dark:text-white w-full mt-[5px]'>{title}</div>
-                        <div className='text-xs text-gray-600 font-normal dark:text-gray-400 mt-[5px] overflow-hidden whitespace-nowrap'>{description}</div>
+                        <div className='text-sm font-bold tracking-tight text-gray-900 dark:text-white w-full mt-[5px]'>{intl.formatMessage({ id: `${title}` })}</div>
+                        <div className='text-xs text-gray-600 font-normal dark:text-gray-400 mt-[5px] overflow-hidden whitespace-nowrap'>{intl.formatMessage({ id: `${description}` })}</div>
                         <div className='font-normal mt-3 text-gray-700 dark:text-gray-400'>{price}</div>
                     </div>
                 </div>

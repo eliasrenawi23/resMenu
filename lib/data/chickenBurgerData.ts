@@ -6,37 +6,37 @@ import chickenParadise from "@/public/burgers/chickenParadise.png"
 
 export const chickenBurgers = [
     {
-        title: "Spicy Tandoori",
+        title: "SPICY_TANDOORI",
         description:
-            "Tandoori Chicken, Chedder Cheese, Grilled Onion & Tomatoes, Lettuce, Pickles, Garlic Sauce, Mayo",
+            "SPICY_TANDOORI_DESCRIPTION",
         imageUrl: spicyTandoori,
         price: "38.00 ₪",
     },
     {
-        title: "Spicy Buffalo",
+        title: "SPICY_BUFFALO",
         description:
-            "Crispy Chicken, Mozza Cheese, Grilled Onion & Tomatoes, Lettuce, Garlic Sauce, Buffalo Sauce, Mayo",
+            "SPICY_BUFFALO_DESCRIPTION",
         imageUrl: spicyBuffalo,
         price: "38.00 ₪",
     },
     {
-        title: "BBQ Chicken",
+        title: "BBQ_CHICKEN",
         description:
-            "Grilled Chicken, Mozza Cheese, Grilled Onion, Lettuce, Mayo, BBQ Sauce",
+            "BBQ_CHICKEN_DESCRIPTION",
         imageUrl: BBQChicken,
         price: "38.00 ₪",
     },
     {
-        title: "Crispy Chicken",
+        title: "CRISPY_CHICKEN",
         description:
-            "Crispy Chicken, Chedder Cheese, Grilled Onion & Tomatoes, Lettuce, Pickles, Garlic Sauce, Mayo, Chipotle Sauce ",
+            "CRISPY_CHICKEN_DESCRIPTION",
         imageUrl: crispyChicken,
         price: "38.00 ₪",
     },
     {
-        title: "Chicken Paradise",
+        title: "CHICKEN_PARADISE",
         description:
-            "Grilled Chicken, Mozza Cheese, Grilled Pineapple,Lettuce, Onions, jalapenos, Mayo,Garlic Sauce ",
+            "CHICKEN_PARADISE_DESCRIPTION",
         imageUrl: chickenParadise,
         price: "38.00 ₪",
     },

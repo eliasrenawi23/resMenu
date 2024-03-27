@@ -7,37 +7,32 @@ import MozzaSticks from "@/public/OnTop/MozzaSticks.png"
 
 export const onTop = [
     {
-        title: "Beef Bacon",
-        description:
-            "",
+        title: "BEEF_BACON_ON_TOP",
+        description: "BEEF_BACON_DESCRIPTION_ON_TOP",
         imageUrl: Bacon,
         price: "12.00 ₪",
     },
     {
-        title: "Chicken Fingers",
-        description:
-            "2 ChickenFingers",
+        title: "CHICKEN_FINGERS",
+        description: "CHICKEN_FINGERS_DESCRIPTION",
         imageUrl: ChickenFingers,
         price: "10.00 ₪",
     },
     {
-        title: "FriedEgg",
-        description:
-            "",
+        title: "FRIED_EGG",
+        description: "FRIED_EGG_DESCRIPTION",
         imageUrl: FriedEgg,
         price: "10.00 ₪",
     },
     {
-        title: "Jalapemos",
-        description:
-            "",
+        title: "JALAPENOS",
+        description: "JALAPENOS_DESCRIPTION",
         imageUrl: Jalapemos,
         price: "5.00 ₪",
     },
     {
-        title: "MozzaSticks",
-        description:
-            "2 Mozza Sticks",
+        title: "MOZZA_STICKS",
+        description: "MOZZA_STICKS_DESCRIPTION",
         imageUrl: MozzaSticks,
         price: "10.00 ₪",
     },

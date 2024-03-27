@@ -6,37 +6,37 @@ import HawaiianBurger from "@/public/burgers/hawaiianBurger.png"
 
 export const beefBurgers = [
     {
-        title: "Beef Burger",
+        title: "BEEF_BURGER",
         description:
-            "Beef patty, Onions, Tomatoes, Pickles, Lettuce, Ketchup, Mayo, Mustard",
+            "BEEF_BURGER_DESCRIPTION",
         imageUrl: BeefBurger,
         price: "38.00 ₪",
     },
     {
-        title: "Cheese  Burger",
+        title: "CHEESE_BURGER",
         description:
-            "Beef patty, Chedder Cheese, Grilled Onions & Tomatoes, Pickles, Lettuce, Ketchup, Mayo, Mustard",
+            "CHEESE_BURGER_DESCRIPTION",
         imageUrl: CheeseBurger,
         price: "38.00 ₪",
     },
     {
-        title: "Beef  Bacon",
+        title: "BEEF_BACON",
         description:
-            "Beef patty, Chedder Cheese, Beef Bacon, Grilled Onions & Tomatoes, Pickles, Lettuce, Ketchup, Mayo, Mustard",
+            "BEEF_BACON_DESCRIPTION",
         imageUrl: BeefBacon,
         price: "38.00 ₪",
     },
     {
-        title: "Creamy Mushroom",
+        title: "CREAMY_MUSHROOM",
         description:
-            "Beef patty, Creamy of Mushroom, Mozza Cheese, Grilled Onions, Mayo",
+            "CREAMY_MUSHROOM_DESCRIPTION",
         imageUrl: CreamyMushroom,
         price: "38.00 ₪",
     },
     {
-        title: "Hawaiian Burger",
+        title: "HAWAIIAN_BURGER",
         description:
-            "Beef patty, Grilled Pineapple, Mayo, Mozza Cheese, Onions, Tomatoes, Lettuce, Mayo, BBQ sauce",
+            "HAWAIIAN_BURGER_DESCRIPTION",
         imageUrl: HawaiianBurger,
         price: "38.00 ₪",
     },

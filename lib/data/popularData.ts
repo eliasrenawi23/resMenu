@@ -9,25 +9,22 @@ import Charger from "@/public/popular/Charger.png"
 
 export const popular = [
     {
-        title: "Lazeezo",
-        description:
-            "Double Beef Patty, HashBrown, Double Cheese ,Grilled Onion &Tomatoes, Pickles, Lettuce, Mayo, Katchup, Mustard, Chipotle Sauce",
+        title: "LAZEEZO",
+        description: "LAZEEZO_DESCRIPTION",
         imageUrl: Lazeezo,
         price: "65.00 ₪",
     },
     {
-        title: "Double Mozza",
-        description:
-            "Double Beef Patty, Mozza Cheese, Mozza Sticks, Salsa, Mayo ",
+        title: "DOUBLE_MOZZA",
+        description: "DOUBLE_MOZZA_DESCRIPTION",
         imageUrl: DoubleMozza,
         price: "65.00 ₪",
     },
     {
-        title: "Charger",
-        description:
-            "Double Beef Patty, Double Cheese ,Beef Bacon, Onion Rings, Lettuce, Tomatoes, Mayo, BBQ Sauce",
+        title: "CHARGER",
+        description: "CHARGER_DESCRIPTION",
         imageUrl: Charger,
         price: "65.00 ₪",
     },
-
 ] as const;
+

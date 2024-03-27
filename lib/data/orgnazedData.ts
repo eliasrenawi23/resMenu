@@ -9,5 +9,5 @@ export const sections = [
     { heading: 'Beef Burgers', meals: beefBurgers },
     { heading: 'Chicken Burgers', meals: chickenBurgers },
     { heading: 'OnTop', meals: onTop },
-    { heading: 'Salads', meals: salads },
+    // { heading: 'Salads', meals: salads },
 ] as const;

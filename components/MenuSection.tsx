@@ -15,7 +15,7 @@ const MenuSection: React.FC<SectionProps> = ({ heading, meals }) => {
     const [showAll, setShowAll] = useState<boolean>(false);
     return (
         <section className='flex  flex-col w-full gap-2 min-h-80'>
-            <div className="flex items-center justify-between">
+            <div className="flex items-center justify-between ml-4 mr-4">
                 <ShowAllButton showAll={showAll} setShowAll={setShowAll} />
                 <SectionHeading>{heading}</SectionHeading>
             </div>

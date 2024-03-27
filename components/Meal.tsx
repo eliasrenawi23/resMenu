@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import { sections } from '@/lib/data/orgnazedData';
 import { useIntl } from 'react-intl';
+import MuiDrawer from './MuiDrawer';
 
 
 
@@ -14,10 +15,10 @@ const Meal: React.FC<MealProps> = ({
     price,
     showAll
 }) => {
+    const [open, setOpen] = React.useState(false);
+
     const intl = useIntl();
-    {/* <h2>
-                {intl.formatMessage({ id: 'key1' })}
-            </h2> */}
+
     return (
         <div className='max-w-[200px] min-w-[180px] flex-1'>
             <button
@@ -27,6 +28,7 @@ const Meal: React.FC<MealProps> = ({
                 aria-controls="radix-:r0:"
                 data-state="closed"
                 className='w-full'
+                onClick={() => setOpen(true)}
             >
                 <div className={showAll ? 'class="transition-transform duration-700 ease-in-out transform scale-100 h-[250px] w-full overflow-hidden flex flex-col justify-between relative cursor-pointer bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700' :
                     'transition-transform duration-700 ease-in-out transform scale-95 hover:scale-100 active:scale-100 focus:scale-100 h-[250px] w-full overflow-hidden flex flex-col justify-between relative cursor-pointer bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700'}>
@@ -50,6 +52,13 @@ const Meal: React.FC<MealProps> = ({
                     </div>
                 </div>
             </button>
+            <MuiDrawer
+                title={title}
+                description={description}
+                imageUrl={imageUrl}
+                price={price}
+                open={open} onClose={() => setOpen(false)}
+            />
         </div>
     );
 };

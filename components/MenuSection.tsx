@@ -1,14 +1,14 @@
 "use client";
 
 import React, { useState } from 'react'
-import { beefBurgers, chickenBurgers, onTop, salads, popular } from '@/lib/data';
 import ShowAllButton from './ShowAllButton';
 import SectionHeading from './SectionHeading';
 import Meal from './Meal';
+import { sections } from '@/lib/data/orgnazedData';
 
 type SectionProps = {
     heading: string;
-    meals: (typeof beefBurgers) | (typeof chickenBurgers) | (typeof onTop) | (typeof salads) | (typeof popular);
+    meals: typeof sections[number]['meals'];
 };
 
 const MenuSection: React.FC<SectionProps> = ({ heading, meals }) => {

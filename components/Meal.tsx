@@ -1,13 +1,10 @@
 import React from 'react';
 import Image from 'next/image';
-import { beefBurgers, chickenBurgers, onTop, salads, popular } from '@/lib/data';
+import { sections } from '@/lib/data/orgnazedData';
 
-type MealProps =
-    ((typeof beefBurgers)[number] |
-        (typeof chickenBurgers)[number] |
-        (typeof onTop)[number] |
-        (typeof salads)[number] |
-        (typeof popular)[number]) & { showAll?: boolean };
+
+
+type MealProps = typeof sections[number]['meals'][number] & { showAll?: boolean };
 
 const Meal: React.FC<MealProps> = ({
     title,

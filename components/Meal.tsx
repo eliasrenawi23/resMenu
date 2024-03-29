@@ -59,6 +59,7 @@ const Meal: React.FC<MealProps> = ({
                 price={price}
                 open={open} onClose={() => setOpen(false)}
             />
+
         </div>
     );
 };

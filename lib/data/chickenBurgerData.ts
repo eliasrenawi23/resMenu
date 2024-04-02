@@ -1,6 +1,6 @@
 import spicyTandoori from "@/public/burgers/spicyTandoori.png"
 import spicyBuffalo from "@/public/burgers/spicyBuffalo.png"
-import BBQChicken from "@/public/burgers/BBQChicken.png"
+import BBQChicken from "@/public/burgers/bbqchicken.png"
 import crispyChicken from "@/public/burgers/crispyChicken.png"
 import chickenParadise from "@/public/burgers/chickenParadise.png"
 

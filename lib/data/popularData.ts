@@ -1,9 +1,9 @@
 
 
 
-import DoubleMozza from "@/public/popular/DoubleMozza.png"
-import Lazeezo from "@/public/popular/Lazeezo.png"
-import Charger from "@/public/popular/Charger.png"
+import DoubleMozza from "@/public/popular/doublemozza.png.png"
+import Lazeezo from "@/public/popular/lazeezo.png"
+import Charger from "@/public/popular/charger.png"
 
 
 

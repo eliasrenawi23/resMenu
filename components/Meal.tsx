@@ -2,21 +2,41 @@ import React from 'react';
 import Image from 'next/image';
 import { sections } from '@/lib/data/orgnazedData';
 import { useIntl } from 'react-intl';
-import MuiDrawer from './MuiDrawer';
+interface DrowerProps {
+    title: typeof sections[number]['meals'][number]['title'];
+    description: typeof sections[number]['meals'][number]['description']
+    imageUrl: typeof sections[number]['meals'][number]['imageUrl']
+    price: typeof sections[number]['meals'][number]['price'];
+}
 
 
+type MealProps = DrowerProps & {
+    showAll?: boolean;
+    setDrawerProps: React.Dispatch<React.SetStateAction<DrowerProps | undefined>>;
+    setOpen: React.Dispatch<React.SetStateAction<boolean>>;
+};
 
-type MealProps = typeof sections[number]['meals'][number] & { showAll?: boolean };
 
 const Meal: React.FC<MealProps> = ({
     title,
     description,
     imageUrl,
     price,
-    showAll
-}) => {
-    const [open, setOpen] = React.useState(false);
+    showAll,
+    setDrawerProps,
+    setOpen
 
+}) => {
+    const handleSetDrawerProps = () => {
+        setOpen(true);
+        setDrawerProps({
+            title,
+            description,
+            imageUrl,
+            price,
+        });
+
+    }
     const intl = useIntl();
 
     return (
@@ -28,7 +48,7 @@ const Meal: React.FC<MealProps> = ({
                 aria-controls="radix-:r0:"
                 data-state="closed"
                 className='w-full'
-                onClick={() => setOpen(true)}
+                onClick={handleSetDrawerProps}
             >
                 <div className={showAll ? 'class="transition-transform duration-700 ease-in-out transform scale-100 h-[250px] w-full overflow-hidden flex flex-col justify-between relative cursor-pointer bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700' :
                     'transition-transform duration-700 ease-in-out transform scale-95 hover:scale-100 active:scale-100 focus:scale-100 h-[250px] w-full overflow-hidden flex flex-col justify-between relative cursor-pointer bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700'}>
@@ -39,6 +59,7 @@ const Meal: React.FC<MealProps> = ({
                                 loading='lazy'
                                 decoding='async'
                                 alt="meal"
+                                layout='auto'
                                 sizes='100%'
                                 style={{ height: '100%', width: '100%', objectFit: 'cover', color: 'transparent' }}
                                 className="data-[loaded=false]:animate-pulse data-[loaded=false]:dark:bg-gray-400"
@@ -52,14 +73,6 @@ const Meal: React.FC<MealProps> = ({
                     </div>
                 </div>
             </button>
-            <MuiDrawer
-                title={title}
-                description={description}
-                imageUrl={imageUrl}
-                price={price}
-                open={open} onClose={() => setOpen(false)}
-            />
-
         </div>
     );
 };

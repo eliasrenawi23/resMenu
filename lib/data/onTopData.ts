@@ -1,4 +1,4 @@
-import Bacon from "@/public/OnTop/beefbacon.png"
+import Bacon from "@/public/onTop/beefbacon.png"
 import ChickenFingers from "@/public/onTop/chickenfingers.png"
 import FriedEgg from "@/public/onTop/friedegg.png"
 import Jalapemos from "@/public/onTop/jalapemos.png"

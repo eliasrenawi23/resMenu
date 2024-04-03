@@ -1,7 +1,7 @@
 
 
 
-import DoubleMozza from "@/public/popular/doublemozza.png.png"
+import DoubleMozza from "@/public/popular/doublemozza.png"
 import Lazeezo from "@/public/popular/lazeezo.png"
 import Charger from "@/public/popular/charger.png"
 

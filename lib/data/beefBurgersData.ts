@@ -1,8 +1,8 @@
-import BeefBurger from "@/public/burgers/beefBurger.png"
-import CheeseBurger from "@/public/burgers/cheeseBurger.png"
-import BeefBacon from "@/public/burgers/beefBacon.png"
-import CreamyMushroom from "@/public/burgers/creamyMushroom.png"
-import HawaiianBurger from "@/public/burgers/hawaiianBurger.png"
+import BeefBurger from "@/public/beefburgers/beefburger.png"
+import CheeseBurger from "@/public/beefburgers/cheeseBurger.png"
+import BeefBacon from "@/public/beefburgers/beefBacon.png"
+import CreamyMushroom from "@/public/beefburgers/creamyMushroom.png"
+import HawaiianBurger from "@/public/beefburgers/hawaiianBurger.png"
 
 export const beefBurgers = [
     {

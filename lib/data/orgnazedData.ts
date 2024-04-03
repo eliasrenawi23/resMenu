@@ -3,6 +3,7 @@ import { chickenBurgers } from "./chickenBurgerData";
 import { onTop } from "./onTopData";
 import { popular } from "./popularData";
 import { salads } from "./saladsData";
+import { sides } from "./sides";
 
 export const sections = [
     { heading: 'Popular', meals: popular },
@@ -10,4 +11,5 @@ export const sections = [
     { heading: 'Chicken Burgers', meals: chickenBurgers },
     { heading: 'OnTop', meals: onTop },
     { heading: 'Salads', meals: salads },
+    { heading: 'sides', meals: sides },
 ] as const;

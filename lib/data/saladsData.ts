@@ -1,6 +1,6 @@
 
-import GardenSalad from "@/public/salads/gardensalad.png"
-import GreekSalad from "@/public/salads/greeksalad.png"
+import GardenSalad from "@/public/salad/gardensalad.png"
+import GreekSalad from "@/public/salad/greeksalad.png"
 
 export const salads = [
     {

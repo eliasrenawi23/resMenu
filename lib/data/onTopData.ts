@@ -1,8 +1,8 @@
-import Bacon from "@/public/ontop/beefbacon.png"
-import ChickenFingers from "@/public/ontop/chickenfingers.png"
-import FriedEgg from "@/public/ontop/friedegg.png"
-import Jalapemos from "@/public/ontop/jalapemos.png"
-import MozzaSticks from "@/public/ontop/mozzasticks.png"
+import Bacon from "@/public/onburgertop/beefbacon.png"
+import ChickenFingers from "@/public/onburgertop/chickenfingers.png"
+import FriedEgg from "@/public/onburgertop/friedegg.png"
+import Jalapemos from "@/public/onburgertop/jalapemos.png"
+import MozzaSticks from "@/public/onburgertop/mozzasticks.png"
 
 
 export const onTop = [

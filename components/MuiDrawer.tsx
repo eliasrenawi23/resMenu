@@ -50,12 +50,21 @@ const MuiDrawer: React.FC<MuiDrawerProps> = ({ data, onClose, open }) => {
                             <Image
                                 src={data?.imageUrl || ''}
                                 loading='lazy'
-                                alt="meal"
-                                layout="fill"
-
-                                className="data-[loaded=false]:animate-pulse data-[loaded=false]:dark:bg-gray-400 object-cover max-h[100%]  "
+                                alt="meal-in-drawer"
+                                className="data-[loaded=false]:animate-pulse data-[loaded=false]:dark:bg-gray-400 w-full h-full object-cover"
                             />
 
+                            {/* <Image
+                                src={imageUrl}
+                                loading='lazy'
+                                decoding='async'
+                                alt="meal"
+                                layout='auto'
+                                sizes='100%'
+                                style={{ height: '100%', width: '100%', objectFit: 'cover', color: 'transparent' }}
+                                className="data-[loaded=false]:animate-pulse data-[loaded=false]:dark:bg-gray-400" 
+                            />
+    */}
                         </div>
                     </div>
                     <div className='h-[40%] w-full overflow-hidden flex flex-col justify-center items-center'>

@@ -57,12 +57,9 @@ const Meal: React.FC<MealProps> = ({
                             <Image
                                 src={imageUrl}
                                 loading='lazy'
-                                decoding='async'
                                 alt="meal"
-                                layout='auto'
                                 sizes='100%'
-                                style={{ height: '100%', width: '100%', objectFit: 'cover', color: 'transparent' }}
-                                className="data-[loaded=false]:animate-pulse data-[loaded=false]:dark:bg-gray-400"
+                                className="data-[loaded=false]:animate-pulse data-[loaded=false]:dark:bg-gray-400 h-full w-full object-cover bg-transparent"
                             />
                         </div>
                     </div>

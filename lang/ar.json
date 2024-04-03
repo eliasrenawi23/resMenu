@@ -38,5 +38,16 @@
     "GARDEN_SALAD": "سلطة جاردين",
     "GARDEN_SALAD_DESCRIPTION": "خس، طماطم، خيار، بصل، زيتون، جبنة فيتا، بقدونس، صلصة محلية الصنع",
     "GREEK_SALAD": "سلطة يونانية",
-    "GREEK_SALAD_DESCRIPTION": "خس، طماطم، خيار، بصل، بقدونس، صلصة محلية الصنع"
+    "GREEK_SALAD_DESCRIPTION": "خس، طماطم، خيار، بصل، بقدونس، صلصة محلية الصنع",
+    "CHEESYDIP": "صلصة الجبنة الساخنة",
+    "FRESHCUTFRIES": "بطاطس مقطعة طازجة",
+    "GARLICPOTATOES": "بطاطا بالثوم",
+    "ONIONRINGS": "حلقات البصل",
+    "PCSMOZZASTIX8": "عصا الجبنة 8 قطع",
+    "CHEESYDIP_DESCRIPTION": "صلصة الجبنة الساخنة المميزة واللذيذة.",
+    "FRESHCUTFRIES_DESCRIPTION": "بطاطس مقطعة طازجة ومقرمشة بشكل مثالي.",
+    "GARLICPOTATOES_DESCRIPTION": "بطاطا مقلية مع تتبيلة الثوم اللذيذة.",
+    "ONIONRINGS_DESCRIPTION": "حلقات بصل مقرمشة ولذيذة تحتوي على طبقة خارجية مقرمشة.",
+    "PCSMOZZASTIX8_DESCRIPTION": "عصا الجبنة المميزة المحشوة بالموزاريلا، مثالية للمشاركة مع الأصدقاء.",
+    "Error": "Error"
 }

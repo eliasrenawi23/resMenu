@@ -1,8 +1,8 @@
-import spicyTandoori from "@/public/chickenBurgers/spicytandoori.png"
-import spicyBuffalo from "@/public/chickenBurgers/spicybuffalo.png"
-import BBQChicken from "@/public/chickenBurgers/bbqchicken.png"
-import crispyChicken from "@/public/chickenBurgers/crispychicken.png"
-import chickenParadise from "@/public/chickenBurgers/chickenparadise.png"
+import spicyTandoori from "@/public/chickenburgers/spicytandoori.png"
+import spicyBuffalo from "@/public/chickenburgers/spicybuffalo.png"
+import BBQChicken from "@/public/chickenburgers/bbqchicken.png"
+import crispyChicken from "@/public/chickenburgers/crispychicken.png"
+import chickenParadise from "@/public/chickenburgers/chickenparadise.png"
 
 export const chickenBurgers = [
     {

@@ -7,34 +7,34 @@ import PCSMozzaStix8 from "@/public/sidess/pcsmozzastix8.png"
 
 export const sides = [
     {
-        title: "CheesyDip",
-        description: "CheesyDip_DESCRIPTION",
+        title: "CHEESYDIP",
+        description: "CHEESYDIP_DESCRIPTION",
         imageUrl: CheesyDip,
-        price: "25.00 ₪",
+        price: "15.00 ₪",
     },
     {
-        title: "FreshcutFries",
-        description: "FreshcutFries_DESCRIPTION",
+        title: "FRESHCUTFRIES",
+        description: "FRESHCUTFRIES_DESCRIPTION",
         imageUrl: FreshcutFries,
-        price: "25.00 ₪",
+        price: "12.50 ₪",
     },
     {
-        title: "GarlicPotatoes",
-        description: "GarlicPotatoes_DESCRIPTION",
+        title: "GARLICPOTATOES",
+        description: "GARLICPOTATOES_DESCRIPTION",
         imageUrl: GarlicPotatoes,
-        price: "25.00 ₪",
+        price: "17.50 ₪",
     },
     {
-        title: "OnionRings",
-        description: "OnionRings_DESCRIPTION",
+        title: "ONIONRINGS",
+        description: "ONIONRINGS_DESCRIPTION",
         imageUrl: OnionRings,
-        price: "25.00 ₪",
+        price: "14.75 ₪",
     },
     {
-        title: "PCSMozzaStix8",
-        description: "PCSMozzaStix8_DESCRIPTION",
+        title: "PCSMOZZASTIX8",
+        description: "PCSMOZZASTIX8_DESCRIPTION",
         imageUrl: PCSMozzaStix8,
-        price: "25.00 ₪",
+        price: "18.25 ₪",
     },
-
 ] as const;
+

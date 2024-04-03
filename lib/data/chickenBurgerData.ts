@@ -17,7 +17,7 @@ export const chickenBurgers = [
         description:
             "SPICY_BUFFALO_DESCRIPTION",
         imageUrl: spicyBuffalo,
-        price: "38.00 ₪",
+        price: "35.00 ₪",
     },
     {
         title: "BBQ_CHICKEN",

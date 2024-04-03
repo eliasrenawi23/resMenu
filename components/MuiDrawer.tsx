@@ -28,7 +28,7 @@ const MuiDrawer: React.FC<MuiDrawerProps> = ({ data, onClose, open }) => {
             anchor='bottom'
 
         >
-            <AppBar position="static" className="text-sm font-bold tracking-tight text-gray-900 dark:text-white relative bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <AppBar position="static" className="text-sm font-bold tracking-tight text-gray-900 dark:text-white relative bg-white  border-2    rounded-sm shadow dark:bg-gray-800 dark:border-gray-700">
                 <Toolbar>
                     <IconButton
                         edge="start"
@@ -53,18 +53,6 @@ const MuiDrawer: React.FC<MuiDrawerProps> = ({ data, onClose, open }) => {
                                 alt="meal-in-drawer"
                                 className="data-[loaded=false]:animate-pulse data-[loaded=false]:dark:bg-gray-400 w-full h-full object-cover"
                             />
-
-                            {/* <Image
-                                src={imageUrl}
-                                loading='lazy'
-                                decoding='async'
-                                alt="meal"
-                                layout='auto'
-                                sizes='100%'
-                                style={{ height: '100%', width: '100%', objectFit: 'cover', color: 'transparent' }}
-                                className="data-[loaded=false]:animate-pulse data-[loaded=false]:dark:bg-gray-400" 
-                            />
-    */}
                         </div>
                     </div>
                     <div className='h-[40%] w-full overflow-hidden flex flex-col justify-center items-center'>

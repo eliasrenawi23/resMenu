@@ -8,13 +8,13 @@ import SchnitzelBaguette from "@/public/cesardata/chicken/schnitzelBaguette.png"
 export const chicken = [
     {
         title: "lafachickenbreast",
-        description: "GARDEN_SALAD_DESCRIPTION",
+        description: "lafachickenbreast_DESCRIPTION",
         imageUrl: LafaChickenBreast,
         price: "25.00 ₪",
     },
     {
-        title: "Crispy",
-        description: "GARDEN_SALAD_DESCRIPTION",
+        title: "CRISPY",
+        description: "CRISPY_DESCRIPTION",
         imageUrl: Crispy,
         price: "35.00 ₪/50.00 ₪",
     },

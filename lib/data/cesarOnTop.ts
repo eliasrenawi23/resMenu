@@ -9,7 +9,6 @@ import FriedOnion from "@/public/cesardata/ontop/friedonion.png"
 
 
 export const onTop = [
-
     {
         title: "JALAPENOS",
         description: "JALAPENOS_DESCRIPTION",
@@ -17,45 +16,46 @@ export const onTop = [
         price: "5.00 ₪",
     },
     {
-        title: "Pineapple",
-        description: "JALAPENOS_DESCRIPTION",
+        title: "PINEAPPLE",
+        description: "PINEAPPLE_DESCRIPTION",
         imageUrl: Pineapple,
         price: "8.00 ₪",
     },
     {
-        title: "HotDogs",
-        description: "JALAPENOS_DESCRIPTION",
+        title: "HOTDOGS",
+        description: "HOTDOGS_DESCRIPTION",
         imageUrl: HotDogs,
         price: "8.00 ₪",
     },
     {
-        title: "Bacon",
-        description: "JALAPENOS_DESCRIPTION",
+        title: "BACON",
+        description: "BACON_DESCRIPTION",
         imageUrl: Bacon,
         price: "8.00 ₪",
     },
     {
-        title: "Fried Egg",
-        description: "JALAPENOS_DESCRIPTION",
+        title: "FRIED EGG",
+        description: "FRIED_EGG_DESCRIPTION",
         imageUrl: FriedEgg,
         price: "6.00 ₪",
     },
     {
-        title: "Mshrooms",
-        description: "JALAPENOS_DESCRIPTION",
+        title: "MSHROOMS",
+        description: "MSHROOMS_DESCRIPTION",
         imageUrl: Mshrooms,
         price: "5.00 ₪",
     },
     {
-        title: "CreamyMushrooms",
-        description: "JALAPENOS_DESCRIPTION",
+        title: "CREAMY MUSHROOMS",
+        description: "CREAMY_MUSHROOMS_DESCRIPTION",
         imageUrl: CreamyMushrooms,
         price: "8.00 ₪",
     },
     {
-        title: "FriedOnion",
-        description: "JALAPENOS_DESCRIPTION",
+        title: "FRIED ONION",
+        description: "FRIED_ONION_DESCRIPTION",
         imageUrl: FriedOnion,
         price: "4.00 ₪",
     },
 ] as const;
+

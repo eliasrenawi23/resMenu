@@ -8,11 +8,11 @@ import { drinks } from "./drinks";
 
 
 export const sections = [
-    { heading: 'Classic', meals: Classicburgers },
-    { heading: 'OnTop', meals: onTop },
-    { heading: 'chicken', meals: chicken },
-    { heading: 'sides', meals: sides },
-    { heading: 'Salads', meals: salads },
-    { heading: 'Drinks', meals: drinks },
+    { heading: 'CLASSIC', meals: Classicburgers },
+    { heading: 'Be On Top', meals: onTop },
+    { heading: 'CHICKEN', meals: chicken },
+    { heading: 'SIDES', meals: sides },
+    { heading: 'SALADS', meals: salads },
+    { heading: 'DRINKS', meals: drinks },
 
 ] as const;

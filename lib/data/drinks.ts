@@ -1,4 +1,4 @@
-import LafaChickenBreast from "@/public/cesardata/chicken/lafachickenbreast.png"
+import Soda from "@/public/cesardata/drinks/soda.png"
 import CocaColaZero from "@/public/cesardata/drinks/cocacolazero.png"
 import CocaCola from "@/public/cesardata/drinks/cocacola.png"
 import SpriteZero from "@/public/cesardata/drinks/spritezero.png"
@@ -17,94 +17,94 @@ import Lemona3na3 from "@/public/cesardata/drinks/lemona3na3.png"
 
 export const drinks = [
     {
-        title: "soda",
-        description: "GARDEN_SALAD_DESCRIPTION",
-        imageUrl: LafaChickenBreast,
+        title: "SODA",
+        description: "EMPTY",
+        imageUrl: Soda,
         price: "7.00 ₪",
     },
     {
-        title: "Coca-Cola Zero",
-        description: "GARDEN_SALAD_DESCRIPTION",
+        title: "COCA-COLA_ZERO",
+        description: "EMPTY",
         imageUrl: CocaColaZero,
         price: "7.00 ₪",
     },
     {
-        title: "Coca-Cola ",
-        description: "GARDEN_SALAD_DESCRIPTION",
+        title: "COCA-COLA",
+        description: "EMPTY",
         imageUrl: CocaCola,
         price: "7.00 ₪",
     },
     {
-        title: "Sprite",
-        description: "GARDEN_SALAD_DESCRIPTION",
+        title: "SPRITE",
+        description: "EMPTY",
         imageUrl: Sprite,
         price: "7.00 ₪",
     },
     {
-        title: "Sprite Zero",
-        description: "GARDEN_SALAD_DESCRIPTION",
+        title: "SPRITE_ZERO",
+        description: "EMPTY",
         imageUrl: SpriteZero,
         price: "7.00 ₪",
     },
     {
         title: "XL",
-        description: "GARDEN_SALAD_DESCRIPTION",
+        description: "EMPTY",
         imageUrl: XL,
         price: "7.00 ₪",
     },
     {
-        title: "XL Ten",
-        description: "GARDEN_SALAD_DESCRIPTION",
+        title: "XL_TEN",
+        description: "EMPTY",
         imageUrl: XLTen,
         price: "7.00 ₪",
     },
     {
-        title: "Fanta3anvem",
-        description: "GARDEN_SALAD_DESCRIPTION",
+        title: "FANTA3ANVEM",
+        description: "EMPTY",
         imageUrl: Fanta3anvem,
         price: "7.00 ₪",
     },
     {
-        title: "ToTBanana",
-        description: "GARDEN_SALAD_DESCRIPTION",
+        title: "TOTBANANA",
+        description: "EMPTY",
         imageUrl: ToTBanana,
         price: "7.00 ₪",
     },
     {
-        title: "Water",
-        description: "GARDEN_SALAD_DESCRIPTION",
+        title: "WATER",
+        description: "EMPTY",
         imageUrl: Water,
         price: "7.00 ₪",
     },
     {
-        title: "water Edn",
-        description: "GARDEN_SALAD_DESCRIPTION",
+        title: "WATER_EDN",
+        description: "EMPTY",
         imageUrl: waterEdn,
         price: "7.00 ₪",
     },
     {
-        title: "FuzeTea",
-        description: "GARDEN_SALAD_DESCRIPTION",
+        title: "FUZETEA",
+        description: "EMPTY",
         imageUrl: FuzeTea,
         price: "7.00 ₪",
     },
     {
-        title: "AnavemMogaz",
-        description: "GARDEN_SALAD_DESCRIPTION",
+        title: "ANAVEMMOGAZ",
+        description: "EMPTY",
         imageUrl: AnavemMogaz,
         price: "7.00 ₪",
     },
     {
-        title: "TotMogaz",
-        description: "GARDEN_SALAD_DESCRIPTION",
+        title: "TOTMOGAZ",
+        description: "EMPTY",
         imageUrl: TotMogaz,
         price: "7.00 ₪",
     },
     {
-        title: "Lemona3na3",
-        description: "GARDEN_SALAD_DESCRIPTION",
+        title: "LEMONA3NA3",
+        description: "EMPTY",
         imageUrl: Lemona3na3,
         price: "7.00 ₪",
     },
-
 ] as const;
+

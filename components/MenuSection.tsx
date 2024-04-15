@@ -5,6 +5,7 @@ import SectionHeading from './SectionHeading';
 import Meal from './Meal';
 import { sections } from '@/lib/data/orgnazedData';
 import MuiDrawer from './MuiDrawer';
+import { useIntl } from 'react-intl';
 
 interface DrowerProps {
     title: typeof sections[number]['meals'][number]['title'];
@@ -23,6 +24,7 @@ const MenuSection: React.FC<SectionProps> = ({ heading, meals }) => {
     const [showAll, setShowAll] = useState<boolean>(false);
     const [drawerProps, setDrawerProps] = useState<DrowerProps | undefined>(undefined);
     const [open, setOpen] = useState<boolean>(false);
+    const intl = useIntl();
 
 
     const onClose = () => {
@@ -34,7 +36,7 @@ const MenuSection: React.FC<SectionProps> = ({ heading, meals }) => {
         <section className='flex flex-col w-full gap-2 min-h-80'>
             <div className="flex items-center justify-between ml-4 mr-4">
                 <ShowAllButton showAll={showAll} setShowAll={setShowAll} />
-                <SectionHeading>{heading}</SectionHeading>
+                <SectionHeading>{intl.formatMessage({ id: heading || 'Error' })}</SectionHeading>
             </div>
             <div className='w-full flex'>
                 <div className={showAll ? 'flex w-full transition-all duration-700 ease-in-out flex-wrap justify-evenly items-center gap-2 p-2' :

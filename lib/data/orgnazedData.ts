@@ -1,18 +1,18 @@
-import { beefBurgers } from "./beefBurgersData";
-import { chickenBurgers } from "./chickenBurgerData";
-//import { onTop } from "./onTopData";
-import { onTop } from "../newData/cesarOnTop";
-import { Classicburgers } from "../newData/classicBurgers";
-import { popular } from "./popularData";
-import { salads } from "./saladsData";
+
+import { onTop } from "./cesarOnTop";
+import { Classicburgers } from "./classicBurgers";
+import { chicken } from "./chicken";
 import { sides } from "./sides";
+import { salads } from "./saladsData";
+import { drinks } from "./drinks";
+
 
 export const sections = [
-    //{ heading: 'Popular', meals: popular },
-    //  { heading: 'Beef Burgers', meals: beefBurgers },
-    // { heading: 'Chicken Burgers', meals: chickenBurgers },
     { heading: 'Classic', meals: Classicburgers },
     { heading: 'OnTop', meals: onTop },
-    //  { heading: 'Salads', meals: salads },
-    //   { heading: 'sides', meals: sides },
+    { heading: 'chicken', meals: chicken },
+    { heading: 'sides', meals: sides },
+    { heading: 'Salads', meals: salads },
+    { heading: 'Drinks', meals: drinks },
+
 ] as const;

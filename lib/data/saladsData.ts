@@ -1,18 +1,18 @@
 
-import GardenSalad from "@/public/salad/gardensalad.png"
-import GreekSalad from "@/public/salad/greeksalad.png"
+import Tabbouleh from "@/public/cesardata/salads/tabbouleh.png"
+import Fattoush from "@/public/cesardata/salads/fattoush.png"
 
 export const salads = [
     {
-        title: "GARDEN_SALAD",
+        title: "TABBOULEH",
         description: "GARDEN_SALAD_DESCRIPTION",
-        imageUrl: GardenSalad,
-        price: "25.00 ₪",
+        imageUrl: Tabbouleh,
+        price: "25.00 ₪/40.00 ₪",
     },
     {
-        title: "GREEK_SALAD",
+        title: "Fattoush",
         description: "GREEK_SALAD_DESCRIPTION",
-        imageUrl: GreekSalad,
-        price: "10.00 ₪",
+        imageUrl: Fattoush,
+        price: "25.00 ₪/40.00 ₪",
     },
 ] as const;

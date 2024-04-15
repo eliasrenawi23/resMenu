@@ -1,40 +1,20 @@
 
-import CheesyDip from "@/public/sidess/cheesydip(5oz).png"
-import FreshcutFries from "@/public/sidess/freshcutfries.png"
-import GarlicPotatoes from "@/public/sidess/garlicpotatoes.png"
-import OnionRings from "@/public/sidess/onionrings.png"
-import PCSMozzaStix8 from "@/public/sidess/pcsmozzastix8.png"
+import Mix from "@/public/cesardata/sides/mix.png"
+import CrispyWings from "@/public/cesardata/sides/crispywings.png"
+
 
 export const sides = [
     {
-        title: "CHEESYDIP",
+        title: "Mix",
         description: "CHEESYDIP_DESCRIPTION",
-        imageUrl: CheesyDip,
-        price: "15.00 ₪",
+        imageUrl: Mix,
+        price: "27.00 ₪/50.00 ₪",
     },
     {
-        title: "FRESHCUTFRIES",
-        description: "FRESHCUTFRIES_DESCRIPTION",
-        imageUrl: FreshcutFries,
-        price: "12.50 ₪",
-    },
-    {
-        title: "GARLICPOTATOES",
-        description: "GARLICPOTATOES_DESCRIPTION",
-        imageUrl: GarlicPotatoes,
-        price: "17.50 ₪",
-    },
-    {
-        title: "ONIONRINGS",
-        description: "ONIONRINGS_DESCRIPTION",
-        imageUrl: OnionRings,
-        price: "14.75 ₪",
-    },
-    {
-        title: "PCSMOZZASTIX8",
-        description: "PCSMOZZASTIX8_DESCRIPTION",
-        imageUrl: PCSMozzaStix8,
-        price: "18.25 ₪",
+        title: "CrispyWings",
+        description: "CHEESYDIP_DESCRIPTION",
+        imageUrl: CrispyWings,
+        price: "55.00 ₪",
     },
 ] as const;
 

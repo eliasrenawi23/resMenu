@@ -1,8 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
 
-import BurgerCover from "@/public/cover_burger.png";
-import Logo from "@/public/resturant_logo.png";
+import BurgerCover from "@/public/coverCesar.png";
+import Logo from "@/public/cesarburgerlogo.png";
 
 const HeaderPage = () => {
     return (
@@ -25,7 +25,7 @@ const HeaderPage = () => {
                 quality="95"
                 priority={true}
                 alt={'logo'}
-                className="object-cover shadow-xl"
+                className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
             />
 
         </header>

@@ -5,14 +5,14 @@ import CrispyWings from "@/public/cesardata/sides/crispywings.png"
 
 export const sides = [
     {
-        title: "Mix",
-        description: "CHEESYDIP_DESCRIPTION",
+        title: "MIX",
+        description: "MIX_DESCRIPTION",
         imageUrl: Mix,
         price: "27.00 ₪/50.00 ₪",
     },
     {
-        title: "CrispyWings",
-        description: "CHEESYDIP_DESCRIPTION",
+        title: "CRISPY_WINGS",
+        description: "CRISPY_WINGS_DESCRIPTION",
         imageUrl: CrispyWings,
         price: "55.00 ₪",
     },

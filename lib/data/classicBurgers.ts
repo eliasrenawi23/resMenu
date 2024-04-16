@@ -4,37 +4,32 @@ import ChessyBurger from "@/public/cesardata/classic/chessyburger.png"
 
 export const Classicburgers = [
     {
-        title: "Kids Meal 130g",
-        description:
-            "BEEF_BURGER_DESCRIPTION",
+        title: "KIDS_MEAL_130G",
+        description: "KIDS_MEAL_BURGER_DESCRIPTION",
         imageUrl: Cesar200,
         price: "43.00 ₪",
     },
     {
-        title: "Classic Cesar 200g",
-        description:
-            "BEEF_BURGER_DESCRIPTION",
+        title: "CLASSIC_CESAR_200G",
+        description: "CLASSIC_CESAR_200G_DESCRIPTION",
         imageUrl: Cesar200,
         price: "50.00 ₪",
     },
     {
-        title: "Classic Cesar 330g",
-        description:
-            "BEEF_BURGER_DESCRIPTION",
+        title: "CLASSIC_CESAR_330G",
+        description: "CLASSIC_CESAR_330G_DESCRIPTION",
         imageUrl: Cesar200,
         price: "65.00 ₪",
     },
     {
-        title: "Grand Cesar 400g",
-        description:
-            "BEEF_BURGER_DESCRIPTION",
+        title: "GRAND_CESAR_400G",
+        description: "GRAND_CESAR_400G_DESCRIPTION",
         imageUrl: Double,
         price: "75.00 ₪",
     },
     {
-        title: "Chessy Cesar Burger 260g",
-        description:
-            "BEEF_BURGER_DESCRIPTION",
+        title: "CHESSY_CESAR_BURGER_260G",
+        description: "CHESSY_CESAR_BURGER_260G_DESCRIPTION",
         imageUrl: ChessyBurger,
         price: "64.00 ₪",
     },

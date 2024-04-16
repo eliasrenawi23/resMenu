@@ -5,13 +5,13 @@ import Fattoush from "@/public/cesardata/salads/fattoush.png"
 export const salads = [
     {
         title: "TABBOULEH",
-        description: "GARDEN_SALAD_DESCRIPTION",
+        description: "EMPTY",
         imageUrl: Tabbouleh,
         price: "25.00 ₪/40.00 ₪",
     },
     {
-        title: "Fattoush",
-        description: "GREEK_SALAD_DESCRIPTION",
+        title: "FATTOUSH",
+        description: "EMPTY",
         imageUrl: Fattoush,
         price: "25.00 ₪/40.00 ₪",
     },

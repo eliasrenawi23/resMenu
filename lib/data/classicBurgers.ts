@@ -18,7 +18,7 @@ export const Classicburgers = [
     {
         title: "CLASSIC_CESAR_330G",
         description: "CLASSIC_CESAR_330G_DESCRIPTION",
-        imageUrl: Cesar200,
+        imageUrl: Double,
         price: "65.00 ₪",
     },
     {
@@ -26,6 +26,12 @@ export const Classicburgers = [
         description: "GRAND_CESAR_400G_DESCRIPTION",
         imageUrl: Double,
         price: "75.00 ₪",
+    },
+    {
+        title: "CLASSIC_CESAR_260G",
+        description: "CLASSIC_CESAR_260G_DESCRIPTION",
+        imageUrl: Double,
+        price: "64.00 ₪",
     },
     {
         title: "CHESSY_CESAR_BURGER_260G",
